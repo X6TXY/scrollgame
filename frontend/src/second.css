@@ -1,0 +1,65 @@
+.rect31{
+    border-radius: 20px;
+    height: 80px;
+    position: relative;
+    width: 420px;
+    background-color: white;
+    top:5%;
+    display: flex;
+}
+
+.rect32{
+    border-radius: 20px;
+    height: 550px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    top:220%;
+    left:50%;
+}
+.text31{
+    width: 600px;
+    display: flex;
+    position: absolute;
+    top:5%;
+    justify-content: center;
+}
+.text32{
+    position: absolute;
+    top:20%;
+    left:5%;
+}
+.rect33{
+    width:200px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    border-radius: 20px;
+    top:280%;
+    left:18%;
+}
+.butt{
+    position: absolute;
+    top:20%;
+    left:30%;
+    background-color: red;
+}
+
+.tut{
+    position: absolute;
+    top:282%;
+    left:2%;
+}
+.tut2{
+    position: absolute;
+    top:282%;
+    left:33%;
+}
+.img3{
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top:220%;
+    left:5%;
+}

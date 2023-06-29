@@ -1,0 +1,56 @@
+
+.rectf{
+    height: 80px;
+    width: 420px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    top:5%;
+    display: flex;
+}
+.img2{
+    position: absolute;
+    top:130%;
+    border-radius: 20px;
+    left:55%;
+}
+
+.rect11{
+    border-radius: 20px;
+    height: 550px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    top:125%;
+    left:5%;
+}
+
+.text11{
+    width: 600px;
+    display: flex;
+    position: absolute;
+    top:5%;
+    justify-content: center;
+}
+
+.text22{
+    width: 490px;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+
+.cheto3{
+    position: absolute;
+    top:100%;
+    left:86%;
+}
+
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,70 @@
+
+.rect{
+    border-radius: 20px;
+    height: 80px;
+    position: relative;
+    width: 420px;
+    background-color: white;
+    top:5%;
+    display: flex;
+}
+.tg{
+    height: 40px;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 100px;
+}
+.car{
+    height: 40px;
+    top:7%;
+    border-radius: 5px;
+    position: absolute;
+}
+.gun{
+    position: absolute;
+    height: 40px;
+    top:14%;
+}
+.img1{
+    border-radius: 20px;
+    position: absolute;
+    top:27%;
+    left:10%;
+}
+.rect1{
+    border-radius: 20px;
+    height: 350px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    top:30%;
+    left:50%;
+}
+
+.text1{
+    
+    width: 600px;
+    display: flex;
+    position: absolute;
+    top:5%;
+    justify-content: center;
+}
+
+.text2{
+    width: 490px;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.butt1{
+    position: absolute;
+    border-radius: 50px;
+    width: 100px;
+    background-color: yellow;
+    top:80%;
+    left: 80%;
+}
+
+

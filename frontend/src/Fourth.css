@@ -1,0 +1,27 @@
+.rect51{
+    border-radius: 20px;
+    height: 80px;
+    position: relative;
+    width: 420px;
+    background-color: white;
+    top:5%;
+    display: flex;
+}
+
+.rect52{
+    border-radius: 20px;
+    height: 530px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    top:430%;
+    left:50%;
+}
+.img5{
+    height: 530px;
+    border-radius: 20px;
+    position: absolute;
+    top:430%;
+    left:10%;
+}
+

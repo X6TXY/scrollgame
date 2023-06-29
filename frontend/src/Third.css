@@ -1,0 +1,43 @@
+.rect41{
+    border-radius: 20px;
+    height: 80px;
+    position: relative;
+    width: 420px;
+    background-color: white;
+    top:5%;
+    display: flex;
+}
+
+.rect42{
+    border-radius: 20px;
+    height: 520px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    top:325%;
+    left:5%;
+}
+
+.text41{
+    width: 600px;
+    display: flex;
+    position: absolute;
+    top:5%;
+    justify-content: center;
+}
+
+.text42{
+    width: 490px;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.img4{
+    border-radius: 20px;
+    height: 520px;
+    width: 350px;
+    position: absolute;
+    top:325%;
+    left:60%;
+}
