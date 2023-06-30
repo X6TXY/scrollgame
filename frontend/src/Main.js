@@ -9,7 +9,7 @@ export const Main = () => {
         <section className="mainpg">
           <a href="https://t.me/KairatNurtasAlgaBot"><Tg className='tg hover:bg-white '/></a>
         </section>
-        <a href=''><Car className='car hover:bg-white ' /></a>
+        <a href='https://almuhkz.itch.io/aramed'><Car className='car hover:bg-white ' /></a>
         <a href=''><Gun className='gun hover:bg-white ' /></a>
         <div className="h-screen w-screen flex justify-center ">
           <div className="rect bg-white drop-shadow-sm">
@@ -23,11 +23,13 @@ export const Main = () => {
                 Лауреат государственной премии «Дарын» (2016).Коротко говоря Маэстро Казахстана и не только.Бахредину сейчас подражает молодежь.Его песни поют на разных массовых мероприятиях.В настоящее время находится на заслуженном отдыхе </p>
           </div>
           <a href='/first' className='butt1 text-8xl flex justify-center items-center'> ⇛</a>
-          <ul className="steps">
-            <li className="step step-primary">Register</li>
-            <li className="step step-primary">Choose plan</li>
-            <li className="step">Purchase</li>
-            <li className="step">Receive Product</li>
+          <ul className="step1 steps">
+            <li className="step step-primary"></li>
+            <li className="step "></li>
+            <li className="step"></li>
+            <li className="step"></li>
+            <li className="step"></li>
+            <li className="step "></li>
           </ul>
         </div>
       </div>

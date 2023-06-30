@@ -1,23 +1,44 @@
+import React, { useEffect, useState } from 'react';
 import img5 from './assets/5.png';
 import './Fourth.css';
+
 export const Fourth = () => {
-    return (
-      <div>
-        <div className='h-screen w-screen flex justify-center'>
-            <div className='rect51 bg-white drop-shadow-sm '>
-                <h1 className='rect51 flex justify-center items-center text-2xl'>Много обещающее будущее</h1>
-            </div>
-            <div className='rect52 '>
-            <h2 className='text41 bg-white text-xl font-medium'>После заката наступает рассвет</h2>
-            <p className='text42 bg-white flex justify-center items-center'>
-Бахредин Зургамбаевтас, будучи молодым и талантливым студентом, всегда чувствовал притяжение к музыке. В свободное время он изучал различные музыкальные инструменты и писал свои собственные мелодии. Его музыкальный талант не остался незамеченным друзьями и однажды, на студенческой вечеринке, Бахредин решил сыграть небольшой концерт для своих товарищей.
+  const [isVisible, setIsVisible] = useState(false);
 
-Его выступление оказалось невероятно впечатляющим и захватывающим. Зал оживился, и все присутствующие не могли оторваться от звуков, которые создавал Бахредин своим гитарным аккомпанементом и потрясающим вокалом. Он перенес всех в мир своих эмоций и музыкальной гармонии.
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
 
-После этого вечера Бахредин осознал, что его настоящая страсть – музыка. Он принял решение отложить все другие занятия и полностью посвятить себя музыкальному искусству. Бахредин начал посещать музыкальные школы и курсы, чтобы улучшить свои навыки игры на гитаре и развить свой вокал.</p>
-            </div>
+  return (
+    <div>
+      <div className={`h-screen w-screen flex justify-center ${isVisible ? 'fadeIn' : ''}`}>
+        <div className={`rect51 bg-white drop-shadow-sm ${isVisible ? 'fadeIn' : ''}`}>
+          <h1 className={`rect51 flex justify-center items-center text-2xl ${isVisible ? 'fadeIn' : ''}`}>Много обещающее будущее</h1>
         </div>
-        <img src={img5} alt='fight club' className='img5'></img>
+        <div className={`rect52 ${isVisible ? 'fadeIn' : ''}`}>
+          <h2 className={`text41 bg-white text-xl font-medium ${isVisible ? 'fadeIn' : ''}`}>После заката наступает рассвет</h2>
+          <p className={`text42 bg-white flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+            Бахредин Зургамбаевтас, будучи молодым и талантливым студентом, всегда чувствовал притяжение к музыке. В свободное время он изучал различные музыкальные инструменты и писал свои собственные мелодии. Его музыкальный талант не остался незамеченным друзьями и однажды, на студенческой вечеринке, Бахредин решил сыграть небольшой концерт для своих товарищей.
+            Его выступление оказалось невероятно впечатляющим и захватывающим. Зал оживился, и все присутствующие не могли оторваться от звуков, которые создавал Бахредин своим гитарным аккомпанементом и потрясающим вокалом. Он перенес всех в мир своих эмоций и музыкальной гармонии.
+            После этого вечера Бахредин осознал, что его настоящая страсть – музыка. Он принял решение отложить все другие занятия и полностью посвятить себя музыкальному искусству. Бахредин начал посещать музыкальные школы и курсы, чтобы улучшить свои навыки игры на гитаре и развить свой вокал.
+          </p>
+        </div>
       </div>
-    );
-  }
+      <img src={img5} alt="fight club" className={`img5 ${isVisible ? 'fadeIn' : ''}`} />
+      <a href="/fifth" className={`butt1 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+        ⇛
+      </a>
+      <ul className={`step2 steps ${isVisible ? 'fadeIn' : ''}`}>
+        <li className="step step-primary"></li>
+        <li className="step step-primary"></li>
+        <li className="step step-primary"></li>
+        <li className="step step-primary"></li>
+        <li className="step step-primary"></li>
+        <li className="step "></li>
+      </ul>
+      <a href="/thrid" className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+        ⇚
+      </a>
+    </div>
+  );
+};

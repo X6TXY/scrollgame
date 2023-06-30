@@ -1,0 +1,67 @@
+
+.rectf{
+    height: 80px;
+    width: 420px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    top:3%;
+    display: flex;
+}
+.img6{
+    position: absolute;
+    top:15%;
+    border-radius: 20px;
+    left:55%;
+}
+
+.rect11{
+    border-radius: 20px;
+    height: 550px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    top:15%;
+    left:5%;
+}
+
+.text11{
+    width: 600px;
+    display: flex;
+    position: absolute;
+    top:5%;
+    justify-content: center;
+}
+
+.text22{
+    width: 490px;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.butt2{
+    position: absolute;
+    border-radius: 50px;
+    width: 100px;
+    background-color: yellow;
+    top:85%;
+    left: 10%;
+}
+
+.butt3{
+    position: absolute;
+    top:60%;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    left: 20%;
+}
+  
+  
+  
+  
+  
+  

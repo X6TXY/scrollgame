@@ -5,6 +5,7 @@ import { FirstStage } from "../FirstStage";
 import { Fourth } from "../Fourth";
 import { Main } from "../Main";
 import { Second } from "../Second";
+import { Six } from '../Six';
 import { Third } from "../Thrid";
 
 export const RouteList = () => {
@@ -16,6 +17,7 @@ export const RouteList = () => {
       <Route path='/second' element={<Second />}></Route>
       <Route path="/fifth" element={<Fifth />} />
       <Route path='/thrid' element={<Third/>}></Route>
+      <Route path='/six' element={<Six/>}></Route>
     </Routes>
   )
 };

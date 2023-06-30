@@ -63,8 +63,12 @@
     border-radius: 50px;
     width: 100px;
     background-color: yellow;
-    top:80%;
+    top:85%;
     left: 80%;
 }
 
-
+.step1{
+    position: absolute;
+    top:90%;
+    left: 35%;
+}

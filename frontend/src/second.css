@@ -14,7 +14,7 @@
     width: 600px;
     background: white;
     position: absolute;
-    top:220%;
+    top:20%;
     left:50%;
 }
 .text31{
@@ -35,7 +35,7 @@
     background-color: red;
     position: absolute;
     border-radius: 20px;
-    top:280%;
+    top:80%;
     left:18%;
 }
 .butt{
@@ -47,12 +47,12 @@
 
 .tut{
     position: absolute;
-    top:282%;
+    top:82%;
     left:2%;
 }
 .tut2{
     position: absolute;
-    top:282%;
+    top:82%;
     left:33%;
 }
 .img3{
@@ -60,6 +60,12 @@
     height: 400px;
     width: 600px;
     position: absolute;
-    top:220%;
+    top:20%;
     left:5%;
+}
+
+.step3{
+    position: absolute;
+    top:90%;
+    left: 35%;
 }
