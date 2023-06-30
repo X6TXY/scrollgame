@@ -25,7 +25,7 @@ export const Fourth = () => {
         </div>
       </div>
       <img src={img5} alt="fight club" className={`img5 ${isVisible ? 'fadeIn' : ''}`} />
-      <a href="/fifth" className={`butt1 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+      <a href="/fifth" className={`butt1 text-8xl hover:bg-yellow-500 flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
         ⇛
       </a>
       <ul className={`step2 steps ${isVisible ? 'fadeIn' : ''}`}>
@@ -36,7 +36,7 @@ export const Fourth = () => {
         <li className="step step-primary"></li>
         <li className="step "></li>
       </ul>
-      <a href="/thrid" className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+      <a href="/thrid" className={`butt2 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
         ⇚
       </a>
     </div>

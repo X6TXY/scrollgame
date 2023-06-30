@@ -22,7 +22,7 @@ export const Main = () => {
                 Кайрат Нуртас ( настоящее имя — БАХРЕДИН ЗУРГАМБАЕВ АСИМЖАНОВИЧ  род. 25 февраля 1989, Караколтык, Чимкентская область, Казахская ССР, СССР) — казахстанский эстрадный певец и актёр; поёт на казахском языке. 
                 Лауреат государственной премии «Дарын» (2016).Коротко говоря Маэстро Казахстана и не только.Бахредину сейчас подражает молодежь.Его песни поют на разных массовых мероприятиях.В настоящее время находится на заслуженном отдыхе </p>
           </div>
-          <a href='/first' className='butt1 text-8xl flex justify-center items-center'> ⇛</a>
+          <a href='/first' className='butt1 text-8xl flex justify-center items-center hover:bg-yellow-500'> ⇛</a>
           <ul className="step1 steps">
             <li className="step step-primary"></li>
             <li className="step "></li>
@@ -31,6 +31,7 @@ export const Main = () => {
             <li className="step"></li>
             <li className="step "></li>
           </ul>
+          <a href='/' className='butt2 text-8xl flex justify-center items-center hover:bg-yellow-500'> ⇚</a>
         </div>
       </div>
     );

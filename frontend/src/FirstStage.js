@@ -33,7 +33,7 @@ export const FirstStage = () => {
           </p>
         </div>
       </div>
-      <a href='/second' className={`butt1 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇛</a>
+      <a href='/second' className={`butt1 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇛</a>
       <ul className={`step2 steps ${isVisible ? 'fadeIn' : ''}`}>
         <li className="step step-primary"></li>
         <li className="step step-primary"></li>
@@ -42,7 +42,7 @@ export const FirstStage = () => {
         <li className="step "></li>
         <li className="step "></li>
       </ul>
-      <a href='/' className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
+      <a href='/' className={`butt2 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
     </div>
   );
 };

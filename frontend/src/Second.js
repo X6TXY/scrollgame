@@ -28,7 +28,7 @@ export const Second = () => {
           <h3 className={`butt flex justify-center items-center text-2xl text-white hover:bg-red-950 ${isVisible ? 'fadeIn' : ''}`}>Играть</h3>
         </a>
       </div>
-      <a href="/thrid" className={`butt1 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇛</a>
+      <a href="/thrid" className={`butt1  hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇛</a>
       <ul className={`step3 steps ${isVisible ? 'fadeIn' : ''}`}>
         <li className="step step-primary"></li>
         <li className="step step-primary"></li>
@@ -37,7 +37,7 @@ export const Second = () => {
         <li className="step "></li>
         <li className="step "></li>
       </ul>
-      <a href="/first" className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
+      <a href="/first" className={`butt2 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
     </div>
   );
 };

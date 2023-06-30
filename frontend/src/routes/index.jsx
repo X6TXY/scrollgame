@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
+import { Disc } from '../Disc';
 import { Fifth } from "../Fifth";
 import { FirstStage } from "../FirstStage";
 import { Fourth } from "../Fourth";
@@ -13,7 +14,8 @@ export const RouteList = () => {
     <Routes>
       <Route path="/first" element={<FirstStage />} />
       <Route path='/four' element={<Fourth/>}/>
-      <Route path="/" element={<Main />} />
+      <Route path="/main" element={<Main />} />
+      <Route path="/" element={<Disc />} />
       <Route path='/second' element={<Second />}></Route>
       <Route path="/fifth" element={<Fifth />} />
       <Route path='/thrid' element={<Third/>}></Route>

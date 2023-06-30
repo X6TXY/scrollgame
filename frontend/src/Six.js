@@ -22,7 +22,7 @@ export const Six = () => {
         <p className={`bye text-2xl font-medium mt-2 ${isVisible ? 'fadeIn' : ''}`}>Адиль</p>
         <p className={`bye text-2xl font-medium mt-2 ${isVisible ? 'fadeIn' : ''}`}>Бэкендер агай</p>
         <p className={`bye text-2xl font-medium mt-2 ${isVisible ? 'fadeIn' : ''}`}>Можно было очень много кого написать но мы не успели</p>
-        <a href='/fifth' className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
+        <a href='/fifth' className={`butt2 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ export const Fifth = () => {
         </div>
         <img src={img6} alt='nast' className={`img6 h-2/3 ${isVisible ? 'fadeIn' : ''}`}></img>
       </div>
-      <a href='/six' className={`butt1 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇛</a>
+      <a href='/six' className={`butt1 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇛</a>
       <ul className={`step2 steps ${isVisible ? 'fadeIn' : ''}`}>
         <li className="step step-primary"></li>
         <li className="step step-primary"></li>
@@ -34,7 +34,7 @@ export const Fifth = () => {
         <li className="step step-primary"></li>
         <li className="step step-primary"></li>
       </ul>
-      <a href='/four' className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
+      <a href='/four' className={`butt2 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}> ⇚</a>
       <a href='' className={`butt3 text-2xl flex justify-center items-center hover:bg-white ${isVisible ? 'fadeIn' : ''}`}> ИГРАТЬ!!!</a>
     </div>
   );

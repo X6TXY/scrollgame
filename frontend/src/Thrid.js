@@ -23,7 +23,7 @@ export const Third = () => {
         </div>
         <img src={img4} alt="bahredi" className={`img4 ${isVisible ? 'fadeIn' : ''}`} />
       </div>
-      <a href="/four" className={`butt1 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+      <a href="/four" className={`butt1 hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
         ⇛
       </a>
       <ul className={`step2 steps ${isVisible ? 'fadeIn' : ''}`}>
@@ -34,7 +34,7 @@ export const Third = () => {
         <li className="step "></li>
         <li className="step "></li>
       </ul>
-      <a href="/second" className={`butt2 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
+      <a href="/second" className={`butt2  hover:bg-yellow-500 text-8xl flex justify-center items-center ${isVisible ? 'fadeIn' : ''}`}>
         ⇚
       </a>
     </div>
